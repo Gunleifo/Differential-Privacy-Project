@@ -24,4 +24,4 @@ This project explores how **Differential Privacy Stochastic Gradient Descent (DP
 
 ## Recommended Reading
 For further insights, we recommend the following resource from NIST:
-🔗 [How to Deploy Machine Learning with Differential Privacy](https://www.nist.gov/blogs/cybersecurity-insights/howdeploy-machine-learning-differential-privacy)
+🔗 [How to Deploy Machine Learning with Differential Privacy](https://www.nist.gov/blogs/cybersecurity-insights/how-deploy-machine-learning-differential-privacy)
