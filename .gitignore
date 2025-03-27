@@ -138,3 +138,5 @@ ui-tests/.pnp.*
 
 # generated html
 notebook/templates/*.html
+
+*.csv
