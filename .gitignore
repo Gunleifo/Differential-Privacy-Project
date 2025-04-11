@@ -140,3 +140,4 @@ ui-tests/.pnp.*
 notebook/templates/*.html
 
 *.csv
+*.pkl
