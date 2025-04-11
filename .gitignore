@@ -141,3 +141,4 @@ notebook/templates/*.html
 
 *.csv
 *.pkl
+*.png
