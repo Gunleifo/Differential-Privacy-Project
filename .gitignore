@@ -142,3 +142,4 @@ notebook/templates/*.html
 *.csv
 *.pkl
 *.png
+dp_env/
