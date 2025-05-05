@@ -41,6 +41,23 @@
    "metadata": {},
    "outputs": [],
    "source": [
+<<<<<<< HEAD
+    "%pip install matplotlib\n",
+    "%pip install seaborn\n",
+    "%pip install pandas\n",
+    "%pip install scikit-learn==1.3.2\n",
+    "%pip install ucimlrepo\n",
+    "%pip install imblearn\n",
+    "%pip install tabulate\n",
+    "%pip install boruta\n",
+    "%pip install torch\n",
+    "%pip install opacus\n",
+    "%pip install scipy\n",
+    "%pip install numpy\n",
+    "%pip install imbalanced-learn==0.11.0\n",
+    "%pip install diffprivlib\n",
+    "print(\"Libraries installed successfully.\")"
+=======
     "# %pip install matplotlib\n",
     "# %pip install seaborn\n",
     "# %pip install pandas\n",
@@ -114,6 +131,7 @@
     "results_fsData_dir = \"results/featureSelectionData\"\n",
     "results_models_dir = \"results/models\"\n",
     "models_dir = \"models\""
+>>>>>>> Deep-Learning-Models
    ]
   },
   {
@@ -739,7 +757,28 @@
     "                      'HeartDiseaseorAttack', 'PhysHlth', 'Stroke', 'MentHlth', \n",
     "                      'CholCheck', 'Smoker', 'NoDocbcCost', 'Sex', 'AnyHealthcare', \n",
     "                      'Income', 'Education']\n",
+<<<<<<< HEAD
+    "\n",
+    "# Filter X_train_bal and X_test_bal to include only important features\n",
+    "X_train_important_manual = X_train_bal[manual_important_features]\n",
+    "X_test_important_manual = X_test_bal[manual_important_features]\n",
+    "# Train with the balanced filtered dataset\n",
+    "rf_model.fit(X_train_important_manual, y_train_bal)\n",
+    "\n",
+    "# Save the model\n",
+    "with open('models/rf_manualSelectedF_balanced_model.pkl', 'wb') as file:\n",
+    "    pickle.dump(rf_model, file)\n",
+    "\n",
+    "# Make predictions using the filtered test set\n",
+    "y_pred = rf_model.predict(X_test_important_manual)\n",
+    "\n",
+    "# Checking accuracy and classification report\n",
+    "print(\"Accuracy:\", accuracy_score(y_test_bal, y_pred))\n",
+    "print(\"\\nClassification Report:\")\n",
+    "print(classification_report(y_test_bal, y_pred))"
+=======
     "important_features = ['HighBP', 'HighChol', 'BMI', 'GenHlth', 'Age', 'Income']"
+>>>>>>> Deep-Learning-Models
    ]
   },
   {
@@ -2526,6 +2565,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+<<<<<<< HEAD
     "## 6 . Applying Differential Privacy Techniques"
    ]
   },
@@ -2704,6 +2744,8 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+=======
+>>>>>>> Deep-Learning-Models
     "## 7 . Evaluation & Performance Metrics"
    ]
   },
