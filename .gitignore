@@ -140,3 +140,6 @@ ui-tests/.pnp.*
 notebook/templates/*.html
 
 *.csv
+*.pkl
+*.png
+dp_env/
